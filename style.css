@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.display{
+  font-size: 2rem;
+   padding: 2rem ;
+ font-weight: 700;
+}
+.click{
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2rem ;
+  border: none;
+  color: white;
+  border-radius: 5rem;
+  background-color: black;
+}
